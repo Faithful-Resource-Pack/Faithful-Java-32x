@@ -3,7 +3,7 @@
   <h1>Compliance 32x</h1>
   <h3>A default-style 32x resource pack for Minecraft Java Edition.</h3>
 
-![RepoSize](https://img.shields.io/github/repo-size/Faithful-Dungeons/Resource-Pack)
-![Issues](https://img.shields.io/github/issues/Faithful-Dungeons/Resource-Pack)
-![PullRequests](https://img.shields.io/github/issues-pr/Faithful-Dungeons/Resource-Pack)
+![RepoSize](https://img.shields.io/github/repo-size/Compliance-Resource-Pack/Resource-Pack-32x)
+![Issues](https://img.shields.io/github/issues/Compliance-Resource-Pack/Resource-Pack-32x)
+![PullRequests](https://img.shields.io/github/issues-pr/Compliance-Resource-Pack/Resource-Pack-32x)
 </div>
