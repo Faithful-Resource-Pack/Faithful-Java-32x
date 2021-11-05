@@ -4,14 +4,15 @@ Looking for our license? You can find it here: https://compliancepack.net/licens
 
 Compliance 32x links:
 - Website: https://compliancepack.net/
-- Addons: https://compliancepack.net/addons32x
+- Addons: https://compliancepack.net/addons#/
 - Discord: https://discord.gg/sN9YRQbBv7
+- Twitter: https://twitter.com/CompliancePack
 - Github: https://github.com/Compliance-Resource-Pack
 
 
 
 Other Compliance projects:
-- Compliance 64x: https://compliancepack.net/#compliance-64x
+- Compliance 64x: https://compliancepack.net/compliance64x/latest
 - Compliance Tweaks: soon on https://compliancepack.net/tweaks
 - Compliance Mods: https://compliancepack.net/mods
-- Compliance Dungeons: https://compliancepack.net/#compliance-dungeons
+- Compliance Dungeons: https://compliancepack.net/compliance32xDungeons/latest
