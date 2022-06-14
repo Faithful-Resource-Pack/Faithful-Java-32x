@@ -4,7 +4,7 @@ Looking for our license? You can find it here: https://compliancepack.net/licens
 
 Compliance 32x links:
 - Website: https://compliancepack.net/
-- Addons: https://compliancepack.net/addons#/
+- Add-ons: https://compliancepack.net/addons#/
 - Discord: https://discord.gg/sN9YRQbBv7
 - Twitter: https://twitter.com/CompliancePack
 - Github: https://github.com/Compliance-Resource-Pack
