@@ -1,18 +1,18 @@
-Looking for our license? You can find it here: https://compliancepack.net/license
+Looking for our license? You can find it here: https://faithfulpack.net/license
 
 
 
-Compliance 32x links:
-- Website: https://compliancepack.net/
-- Add-ons: https://compliancepack.net/addons#/
+Faithful 32x links:
+- Website: https://faithfulpack.net/
+- Add-ons: https://faithfulpack.net/addons#/
 - Discord: https://discord.gg/sN9YRQbBv7
-- Twitter: https://twitter.com/CompliancePack
-- Github: https://github.com/Compliance-Resource-Pack
+- Twitter: https://twitter.com/FaithfulPack
+- Github: https://github.com/Faithful-Resource-Pack
 
 
 
-Other Compliance projects:
-- Compliance 64x: https://compliancepack.net/compliance64x/latest
-- Compliance Tweaks: soon on https://compliancepack.net/tweaks
-- Compliance Mods: https://compliancepack.net/mods
-- Compliance Dungeons: https://compliancepack.net/compliance32xDungeons/latest
+Other Faithful projects:
+- Faithful 64x: https://faithfulpack.net/faithful64x/latest
+- Faithful Tweaks: soon on https://faithfulpack.net/tweaks
+- Faithful Mods: https://faithfulpack.net/mods
+- Faithful Dungeons: https://faithfulpack.net/faithful32xDungeons/latest
