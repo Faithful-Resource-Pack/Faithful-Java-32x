@@ -1,5 +1,9 @@
 name: Create Pack
-on: [push]
+on:
+  push:
+    branches-ignore:
+      - master
+      - main
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,7 +14,7 @@ jobs:
       id: branch-name
       uses: tj-actions/branch-names@v5.2
 
-    - name: Creating Pack
+    - name: Create Pack
       uses: appleboy/ssh-action@master
       with:
         host: ${{ secrets.HOST }}
@@ -18,4 +22,9 @@ jobs:
         PORT: ${{ secrets.PORT }}
         KEY: ${{ secrets.SSH }}
         script: |
-          echo "asdf ${{ steps.branch-name.outputs.current_branch }} hhhhhhh"
+          cd "./packs/Faithful-Java-32x"
+          git pull
+          git checkout ${{ steps.branch-name.outputs.current_branch }}
+          zip -r Faithful-Java-32x-Nightly.zip . -x "*.git*" -x ".gitignore"
+          [ ! -d "/var/www/html/database.faithfulpack.net/packs/32x-Java/${{ steps.branch-name.outputs.current_branch }}" ] && mkdir "/var/www/html/database.faithfulpack.net/packs/32x-Java/${{ steps.branch-name.outputs.current_branch }}"
+          mv Faithful-Java-32x-Nightly.zip "/var/www/html/database.faithfulpack.net/packs/32x-Java/${{ steps.branch-name.outputs.current_branch }}"
