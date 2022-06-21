@@ -1,0 +1,13 @@
+name: Create Pack
+on: [push]
+jobs:
+  build:
+    - name: Creating Pack
+      uses: appleboy/ssh-action@master
+      with:
+        host: ${{ secrets.HOST }}
+        USERNAME: ${{ secrets.USERNAME }}
+        PORT: ${{ secrets.PORT }}
+        KEY: ${{ secrets.SSH }}
+        script: |
+          echo "${GITHUB_REF##*/}"
