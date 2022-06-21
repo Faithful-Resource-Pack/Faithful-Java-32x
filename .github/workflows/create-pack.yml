@@ -6,9 +6,9 @@ jobs:
     steps:
     - uses: actions/checkout@v2
 
-    - name: Get Branch
-      id: branch
-      run: echo "git_branch=${GITHUB_REF#refs/heads/}" >> $GITHUB_BRANCH
+    - name: Get branch name
+      id: branch-name
+      uses: tj-actions/branch-names@v5.2
 
     - name: Creating Pack
       uses: appleboy/ssh-action@master
@@ -18,4 +18,4 @@ jobs:
         PORT: ${{ secrets.PORT }}
         KEY: ${{ secrets.SSH }}
         script: |
-          echo "asdf ${{ env.branch }} hhhhhhh"
+          echo "asdf ${{ steps.branch-name.outputs.current_branch }} hhhhhhh"
