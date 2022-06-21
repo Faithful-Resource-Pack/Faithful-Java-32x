@@ -13,4 +13,4 @@ jobs:
         PORT: ${{ secrets.PORT }}
         KEY: ${{ secrets.SSH }}
         script: |
-          echo "${GITHUB_REF##*/}"
+          echo "asdf ${{ github.head_ref }} hhhhhhh"
