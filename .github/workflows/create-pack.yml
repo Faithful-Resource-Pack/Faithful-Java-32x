@@ -5,6 +5,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
+
+    - name: Get Branch
+      id: branch
+      run: echo "git_branch=${GITHUB_REF#refs/heads/}" >> $GITHUB_BRANCH
+
     - name: Creating Pack
       uses: appleboy/ssh-action@master
       with:
@@ -13,4 +18,4 @@ jobs:
         PORT: ${{ secrets.PORT }}
         KEY: ${{ secrets.SSH }}
         script: |
-          echo "asdf ${GITHUB_REF#refs/heads/} hhhhhhh"
+          echo "asdf ${{ env.branch }} hhhhhhh"
