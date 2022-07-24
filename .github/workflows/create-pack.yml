@@ -25,5 +25,5 @@ jobs:
           cd "./packs/Faithful-Java-32x"
           git checkout ${{ steps.branch-name.outputs.current_branch }}
           git pull
-          zip -r Faithful-Java-32x-${{ steps.branch-name.outputs.current_branch }}-Experimental.zip . -x "*.git*" -x "*.github*" -x ".gitignore"
-          mv Faithful-Java-32x-${{ steps.branch-name.outputs.current_branch }}-Experimental.zip "/var/www/html/database.faithfulpack.net/packs/32x-Java/Experimental"
+          zip -r "Faithful 32x - ${{ steps.branch-name.outputs.current_branch }} Experimental.zip" . -x "*.git*" -x "*.github*" -x ".gitignore"
+          mv "Faithful 32x - ${{ steps.branch-name.outputs.current_branch }} Experimental.zip" "/var/www/html/database.faithfulpack.net/packs/32x-Java/Experimental"
