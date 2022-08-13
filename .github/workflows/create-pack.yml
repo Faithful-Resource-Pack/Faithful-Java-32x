@@ -22,6 +22,7 @@ jobs:
         PORT: ${{ secrets.PORT }}
         KEY: ${{ secrets.SSH }}
         script: |
+          [ -d "./packs/Faithful-Java-32x/${{ steps.branch-name.outputs.current_branch }}" ] && exit 1
           cd "./packs/Faithful-Java-32x/${{ steps.branch-name.outputs.current_branch }}"
           git pull
           zip -r "Faithful 32x - ${{ steps.branch-name.outputs.current_branch }} Experimental.zip" . -x "*.git*" -x "*.github*" -x ".gitignore"
