@@ -11,6 +11,9 @@
 
 ---
 
-### Important:
+### Downloads:
+The latest release versions can be downloaded on [our website](https://faithfulpack.net/faithful32x/latest) and the latest unreleased versions on [our database](https://database.faithfulpack.net/packs/32x-Java/Experimental/).
+
+### Verions:
 #### To view the pack files and to switch between resource pack versions, click the branch button (usually named `master` or `main`) and select the version you want to see!
 ![Branch Button](https://i.imgur.com/meBP6N8.png)
