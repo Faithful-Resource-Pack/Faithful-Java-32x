@@ -4,9 +4,9 @@
   <h3>The original Minecraft texture feel, with double the resolution and double the fun!</h3>
   <h5><i>Official Java Edition repository</i></h5>
 
-![RepoSize](https://img.shields.io/github/repo-size/Compliance-Resource-Pack/Resource-Pack-32x)
-![Issues](https://img.shields.io/github/issues/Compliance-Resource-Pack/Resource-Pack-32x)
-![PullRequests](https://img.shields.io/github/issues-pr/Compliance-Resource-Pack/Resource-Pack-32x)
+![RepoSize](https://img.shields.io/github/repo-size/Faithful-Resource-Pack/Faithful-Java-32x)
+![Issues](https://img.shields.io/github/issues/Faithful-Resource-Pack/Faithful-Java-32x)
+![PullRequests](https://img.shields.io/github/issues-pr/Faithful-Resource-Pack/Faithful-Java-32x)
 </div>
 
 ---
