@@ -11,10 +11,12 @@
 
 ---
 
-### Downloads:
+## How to download:
 The latest release versions can be downloaded on [our website](https://faithfulpack.net/faithful32x/latest) and the latest unreleased versions on [our database](https://database.faithfulpack.net/packs/32x-Java/Experimental/).
 
-### Versions:
-#### To view the pack files and to switch between resource pack versions, click the branch button (usually named `master` or `main`) and select the version you want to see!  
-#### The `java-latest` branch is always updated to the latest Minecraft version, including snapshots/pre-releases/release candidates. It's meant for easier development, so unless you know what you're doing, just use a properly numbered branch.
-![Branch Button](https://i.imgur.com/meBP6N8.png)
+## How to switch versions:
+To view the pack files and to switch between resource pack versions, click the branch button (`main`) and select the version you want to see! 
+
+If you want to play on snapshots or pre-releases, the `java-latest` branch contains textures that aren't in numbered versions yet.
+
+<img src="https://user-images.githubusercontent.com/75297863/163904169-6ab97237-946c-4cf2-be60-3909a464d308.png" align="center" height="512px">
