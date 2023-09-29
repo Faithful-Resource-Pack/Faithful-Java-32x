@@ -3,5 +3,13 @@
     "pack_format": 16,
            "supported_formats": {"min_inclusive": 16, "max_inclusive": 18},
     "description": "The go-to 32x resource pack.\n§8August 2023 Release"
-  }
+  },
+       "overlays": {
+		"entries": [
+			{
+				"formats": {"min_inclusive": 16, "max_inclusive": 18},
+				"directory": "ADD FOLDER FOR COMPATIBILITY"
+			}
+		]
+	}
 }
