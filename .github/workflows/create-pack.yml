@@ -13,6 +13,6 @@ jobs:
         PORT: ${{ secrets.PORT }}
         KEY: ${{ secrets.SSH }}
         script: |
-          if [[ $({ github.ref_name }) == "main" ]]; then
+          if [[ ${{ github.ref_name }} == "main" ]]; then
             exit 0
           fi
